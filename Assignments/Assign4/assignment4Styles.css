@@ -1,0 +1,22 @@
+﻿div {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #666666;
+}
+.fieldLabel {
+	vertical-align: top;
+	text-align: right;
+	width: 440px;
+}
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	border: medium solid #ACB52E;
+	box-shadow: 5px 5px 5px #999999;
+	padding: 6px;
+	border-radius: 15px;
+}
+table {
+	border: thin solid #ACB52E;
+	border-radius: 5px;
+}

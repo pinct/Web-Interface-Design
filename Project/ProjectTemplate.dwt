@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<!-- #BeginEditable "doctitle" -->
+<title>Untitled 1</title>
+<!-- #EndEditable -->
+<!-- #BeginEditable "description" -->
+<meta name="description" content="Page description here.">
+<!-- #EndEditable -->
+<!-- #BeginEditable "keywords" -->
+<meta name="keywords" content="Page keywords here.">
+<!-- #EndEditable -->
+<link href="projectStyles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="wrapper">
+  <header>
+    <h1>Anup Rai Realty Inc.</h1>
+  </header>
+    <nav>
+	<ul>
+      <li id="page"><a href="home.html">Home</a></li>
+      <li><a href="listings.html">Listings</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="sitemap.html">Sitemap</a></li>
+      	</ul>
+    </nav>
+  <main>
+ 	 <!-- #BeginEditable "main" -->
+ 	 <div>content here</div>
+ 	 <!-- #EndEditable -->
+  </main>
+   <aside>
+    <figure>
+    <img src="images/AgentPic.jpg" width="250" height="310" alt="Anup Rai">
+    <p>
+    Phone: (416) 123-4567<br>
+    Email: <a href="mailto:arai@ARaiInc.ca">arai@ARaiInc.ca</a>
+    </p>
+    </figure>
+  </aside> 
+  <footer>
+	&copy;&nbsp;Copyright Michael Courneya - COMP213 - Term Project - 2019
+  </footer>
+ </div>
+
+</body>
+
+</html>

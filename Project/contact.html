@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html dir="ltr">
+
+<!-- #BeginTemplate "ProjectTemplate.dwt" -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<!-- #BeginEditable "doctitle" -->
+<title>Contact Form</title>
+<!-- #EndEditable -->
+<!-- #BeginEditable "description" -->
+<meta name="description" content="Contact us with your house wishes.">
+<!-- #EndEditable -->
+<!-- #BeginEditable "keywords" -->
+<meta name="keywords" content="Contact, Anup Rai">
+<!-- #EndEditable -->
+<link href="projectStyles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="wrapper">
+  <header>
+    <h1>Anup Rai Realty Inc.</h1>
+  </header>
+    <nav>
+	<ul>
+      <li id="page"><a href="home.html">Home</a></li>
+      <li><a href="listings.html">Listings</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="sitemap.html">Sitemap</a></li>
+      	</ul>
+    </nav>
+  <main>
+ 	 <!-- #BeginEditable "main" -->
+ 	 <div>
+ 	 <h2>Contact Us:</h2>
+ 	 <form method="post" action="mailto:arai@ARaiRE.ca">
+ 	 	<table style="width: 100%">
+			<tr>
+				<td class="contactTableColumn">
+ 	 <label>Are you buying or selling?:</label></td>
+				<td>Buying <input name="radioBOS" type="radio" value="buying" tabindex="1" /> Selling <input name="radioBOS" type="radio" value="selling" tabindex="3" /></td>
+			</tr>
+			<tr>
+				<td class="contactTableColumn">
+ 	 <label>Your First Name:</label></td>
+				<td><input name="txtFirstName" type="text" size="40" tabindex="5" /></td>
+			</tr>
+			<tr>
+				<td class="contactTableColumn" style="height: 26px">
+ 	 <label>Your Last Name:</label></td>
+				<td style="height: 26px">
+				<input name="txtLastName" type="text" size="40" tabindex="6" /></td>
+			</tr>
+
+			<tr>
+				<td class="contactTableColumn">
+ 	 <label>Phone:</label></td>
+				<td><input name="txtPhone" type="text" size="25" tabindex="7" /></td>
+			</tr>
+			<tr>
+				<td class="contactTableColumn">
+ 	 <label>Email:</label></td>
+				<td><input name="txtEmail" type="text" size="40" tabindex="9" /></td>
+			</tr>
+			<tr>
+				<td class="contactTableColumn">
+ 	 <label>Property Adress:</label></td>
+				<td>
+				<input name="txtAdress" type="text" size="50" tabindex="11" /></td>
+			</tr>
+			<tr>
+				<td class="contactTableColumn">
+ 	 <label>Price Range:</label></td>
+				<td>
+				<input name="txtPrice" type="text" size="30" tabindex="13" /></td>
+			</tr>
+			<tr>
+				<td class="contactTableColumn">
+ 	 <label>Type of Property?:</label></td>
+				<td> House 
+				<input name="radioType" type="radio" value="house" tabindex="17" /> 
+				Condominium 
+				<input name="radioType" type="radio" tabindex="18" value="condo"> Commercial 
+				<input name="radioType" type="radio" value="commercial" tabindex="19" /></td>
+			</tr>
+			<tr>
+				<td class="contactTableColumn">
+ 	 <label>Number of Bedrooms:</label></td>
+				<td>
+				<input name="txtBeds" type="text" size="10" tabindex="21" /></td>
+			</tr>
+			<tr>
+				<td class="contactTableColumn">
+ 	 <label>Number of Bathrooms:</label></td>
+				<td>
+				<input name="txtBaths" type="text" size="10" tabindex="23" /></td>
+			</tr>
+			<tr>
+				<td class="contactTableColumn">
+ 	 <label>Additional Comments:</label></td>
+				<td>
+				<textarea name="txtAreaComments" cols="40" rows="3" tabindex="25"></textarea></td>
+			</tr>
+
+			<tr>
+				<td class="contactTableColumn">
+ 	 <input name="btnSubmit" type="submit" value="Send Your Info" tabindex="27" /></td>
+				<td>
+				<input name="btnReset" type="reset" value="Start Over" tabindex="29" /></td>
+			</tr>
+		 </table>
+&nbsp;</form>
+ 	 </div>
+ 	 <!-- #EndEditable -->
+  </main>
+   <aside>
+    <figure>
+    <img src="images/AgentPic.jpg" width="250" height="310" alt="Anup Rai">
+    <p>
+    Phone: (416) 123-4567<br>
+    Email: <a href="mailto:arai@ARaiInc.ca">arai@ARaiInc.ca</a>
+    </p>
+    </figure>
+  </aside> 
+  <footer>
+	&copy;&nbsp;Copyright Michael Courneya - COMP213 - Term Project - 2019
+  </footer>
+ </div>
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>

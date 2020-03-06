@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<!--Created by: Michael Courneya - Created on 11/08/19-->
+<html lang=="en">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Week 09 Example</title>
+<meta content="HTML form, COMP213" name="keywords">
+<meta content="Using HTML Forms" name="description">
+<link href="Week09Styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="allPage">
+<header>
+	<h1><span lang="en-us">Centennial College - Registration Form</span></h1>
+</header>
+<main>
+<form action="mailto:johndoe37@my.centennialcollege.ca" method="post">
+	<table style="width: 100%">
+		<tr>
+			<td class="fieldLabel"><span lang="en-us">First Name:</span></td>
+			<td><input name="txtFirstName" size="25" tabindex="1" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-us">Last Name:</span></td>
+			<td><span lang="en-us">
+			<input name="txtLastName" size="25" tabindex="3" type="text"></span></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-us">Email:</span></td>
+			<td><input name="txtEmail" size="30" tabindex="5" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-us">Create Password:</span></td>
+			<td>
+			<input name="txtCreatePass" size="16" tabindex="7" type="password"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-us">Confirm Password:</span></td>
+			<td><span lang="en-us">
+			<input name="txtConfirmPass" size="16" tabindex="9" type="password"></span></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-us">Gender:</span></td>
+			<td>
+			<input checked="true" name="Gender" tabindex="11" type="radio" value="M"><span lang="en-us">M</span><input name="Gender" tabindex="13" type="radio" value="F"><span lang="en-us">F</span><input name="Gender" tabindex="15" type="radio" value="X"><span lang="en-us">X</span></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-us">Education:</span></td>
+			<td>
+			<input checked="true" name="Education" tabindex="17" type="radio" value="Secondary"><span lang="en-us">Secondary</span><input name="Education" tabindex="19" type="radio" value="College"><span lang="en-us">College</span><input name="Education" tabindex="21" type="radio" value="UnderGrad"><span lang="en-us">Under 
+			Grad</span><input name="Education" tabindex="25" type="radio" value="Graduate"><span lang="en-us">Graduate</span><input name="Education" tabindex="27" type="radio" value="PostGrad"><span lang="en-us">Post 
+			Grad</span></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-us">Computer Knowledge:</span></td>
+			<td><input name="chkOS" tabindex="29" type="checkbox" value="OS"><span lang="en-us">OS<input name="chkNetworking" tabindex="31" type="checkbox" value="Network">Networking<input name="chkProgramming" tabindex="33" type="checkbox" value="Programming">Programming<input name="chkWebDesign" tabindex="35" type="checkbox" value="WebDesign">Web 
+			Design<input name="chkDatabases" tabindex="37" type="checkbox" value="Databases">Databases</span></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-us">Select Courses:</span></td>
+			<td>
+			<select multiple="multiple" name="lstCourses" size="5" tabindex="39">
+			<option value="COMP100">COMP100 - Programming 1</option>
+			<option value="COMP125">COMP125 - Client Side Web Development
+			</option>
+			<option value="COMP213">COMP213 - Web Interface Design</option>
+			<option value="COMP225">COMP225 - Systems 1</option>
+			<option value="COMP229">COMP229 - Server Side Development</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel"><span lang="en-us">Special Requests:</span></td>
+			<td><textarea cols="50" name="txtRequests" rows="7" tabindex="41">---Please let us know about any special needs you may have ( e.g. assisted typing, closed captioning, etc.)---</textarea></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">
+			<input name="btnRegister" tabindex="43" type="submit" value="Register Now"></td>
+			<td>
+			<input name="btnReset" tabindex="45" type="reset" value="Start Again"></td>
+		</tr>
+	</table>
+</form>
+&nbsp;</main><footer>
+<p id="copywright">&copy;&nbsp;Copywright Michael Courneya - Week 09 - COMP213</p>
+</footer>
+</div>
+</body>
+
+</html>
